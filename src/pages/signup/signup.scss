@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .background {
+    background-image: url("img.jpg");
+  //background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    .wrapper {
+      padding: 30px;
+      color: white;
+      border: 1px solid white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      backdrop-filter: blur(20px);
+      box-shadow: 100px black;
+  
+      .form {
+        // gap:10px
+      //   font-family: Arial, Helvetica, sans-serif 
+        .name {
+          display: flex;
+          flex-direction: row;
+          padding: 10px 5px;
+          align-items: center;
+          
+  
+          .nameBox {
+            // position: absolute;
+  
+            .nameInput {
+                padding: 10px;
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid white;
+                border-radius: 25px;
+                border-style: solid;
+                width: 260px;
+                color: white;
+                text-decoration: none;
+                outline: none;
+              }
+            ::placeholder {
+              color: white;
+            }
+          }
+          .nameIcon {
+            height: 15px;
+            // color: white;
+            transform: translateX(-170%);
+          }
+        }
+        .email {
+          display: flex;
+          flex-direction: row;
+          padding: 10px 5px;
+          align-items: center;
+          
+  
+          .emailBox {
+            // position: absolute;
+  
+            .emailInput {
+                padding: 10px;
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid white;
+                border-radius: 25px;
+                border-style: solid;
+                width: 260px;
+                color: white;
+                text-decoration: none;
+                outline: none;
+              }
+            ::placeholder {
+              color: white;
+            }
+          }
+          .emailIcon {
+            height: 15px;
+            // color: white;
+            transform: translateX(-170%);
+          }
+        }
+        .pass {
+          display: flex;
+          flex-direction: row;
+          padding: 10px 5px;
+          align-items: center;
+  
+          .passBox {
+            // position: absolute;
+  
+            .passInput {
+              padding: 10px;
+              background-color: rgba(255, 255, 255, 0);
+              border: 1px solid white;
+              border-radius: 25px;
+              border-style: solid;
+              width: 260px;
+              color: white;
+              text-decoration: none;
+              outline: none;
+            }
+            ::placeholder {
+              color: white;
+            }
+          }
+          .passwordIcon {
+            height: 15px;
+            transform: translateX(-170%);
+          }
+        }
+        .forgetPass {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 10px 5px;
+          font-size: 13px;
+          accent-color: white;
+  
+  
+          .textBox {
+            gap: 5px;
+          }
+        }
+        .login {
+          width: 100%;
+          padding: 10px;
+          border-radius: 25px;
+          font-weight: 600;
+          border: 2px solid white;
+          outline: none;
+        }
+        .error{
+          padding-top: 10px;
+          font-size: 12px;
+          color: tomato;
+        }
+        .noAccount {
+          text-align: center;
+          padding: 20px 0px 15px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  
