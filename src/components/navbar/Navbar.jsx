@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="logo.svg" alt="" />
+        <img src="/logo.svg" alt="" />
         <span>lamadmin</span>
       </div>
       <div className="icons">
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
         <div className="user">
           <img
-            src="abinash.jpeg"
+            src="/abinash.jpeg"
             alt=""
           />
           <span>Abinash</span>
