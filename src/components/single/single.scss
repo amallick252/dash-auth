@@ -16,7 +16,17 @@
         display: flex;
         align-items: center;
         gap: 20px;
+        @include sm {
+          button{
 
+            display: none;
+          }
+        }
+        @include sm {
+          .topInfo{
+            font-size: small;
+          }
+        }
         img {
           width: 100px;
           height: 100px;

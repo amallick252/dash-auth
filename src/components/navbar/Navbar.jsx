@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import authService  from "../../appwrite/auth";
 import { useNavigate } from "react-router-dom";
 import { logout } from "../../store/authSlice";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const dispatch= useDispatch()
@@ -16,10 +17,12 @@ const Navbar = () => {
    }
   return (
     <div className="navbar">
+      <Link to="/">
       <div className="logo">
         <img src="/logo.svg" alt="" />
         <span>lamadmin</span>
       </div>
+      </Link>
       <div className="icons">
         <img src="/search.svg" alt="" className="icon" />
         <img src="/app.svg" alt="" className="icon" />
