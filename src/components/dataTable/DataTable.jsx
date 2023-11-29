@@ -7,7 +7,7 @@ const DataTable = (props) => {
   const actionColumn  = {
     field: "action",
     headerName: "Action",
-    width: 200,
+    width: 100,
     renderCell: (params) => {
       return (
         <div className="action">

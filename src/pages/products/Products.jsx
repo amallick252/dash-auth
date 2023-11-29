@@ -9,7 +9,7 @@ const columns= [
   {
     field: "img",
     headerName: "Image",
-    width: 100,
+    width: 120,
     renderCell: (params) => {
       return <img src={params.row.img || "/noavatar.png"} alt="" />;
     },
@@ -61,7 +61,7 @@ const Products = () => {
         <h1>Products</h1>
         <button onClick={() => setOpen(true)}>Add New Products</button>
       </div>
-      <DataTable slug="products" columns={columns} rows={products} />
+      <DataTable slug="products" columns={columns} rows={products}/>
       {open && <Add slug="product" columns={columns} setOpen={setOpen} />}
     </div>
   );

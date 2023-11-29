@@ -39,6 +39,7 @@ function App() {
       children: [
         {
           path: "/",
+          index: true,
           element: <Home />,
         },
         {
