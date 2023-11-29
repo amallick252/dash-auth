@@ -1,34 +1,46 @@
-{
-    "routes":[
+// {
+//     "routes":[
         
-              {
-                "src": "/",
-                "dest": "/"
-              },
-              {
-                "src": "users",
-                "dest": "/"
-              },
-              {
-                "src": "products",
-                "dest": "/"
-              },
-              {
-                "src": "users/:id",
-                "dest": "/"
-              },
-              {
-                "src": "products/:id",
-                "dest": "/"
-              },
-              {
-                "src": "login",
-                "dest": "/"
-              },
-              {
-                "src": "signup",
-                "dest": "/"
-              }
+//               {
+//                 "src": "/",
+//                 "dest": "/"
+//               },
+//               {
+//                 "src": "users",
+//                 "dest": "/"
+//               },
+//               {
+//                 "src": "products",
+//                 "dest": "/"
+//               },
+//               {
+//                 "src": "users/:id",
+//                 "dest": "/"
+//               },
+//               {
+//                 "src": "products/:id",
+//                 "dest": "/"
+//               },
+//               {
+//                 "src": "login",
+//                 "dest": "/"
+//               },
+//               {
+//                 "src": "signup",
+//                 "dest": "/"
+//               }
 
+//     ]
+// }
+
+{
+    "routes": [
+      { "src": "/", "dest": "/index.html" },
+      { "src": "/users", "dest": "/index.html" },
+      { "src": "/products", "dest": "/index.html" },
+      { "src": "/users/:id", "dest": "/index.html" },
+      { "src": "/products/:id", "dest": "/index.html" },
+      { "src": "/login", "dest": "/index.html" },
+      { "src": "/signup", "dest": "/index.html" }
     ]
-}
+  }
