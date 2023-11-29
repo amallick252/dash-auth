@@ -38,34 +38,34 @@ function App() {
       element: <Layout />,
       children: [
         {
-          path: "/",
+          // path: "/",
           index: true,
           element: <Home />,
         },
         {
-          path: "/users",
+          path: "users",
           element: <Users />,
         },
         {
-          path: "/products",
+          path: "products",
           element: <Products />,
         },
         {
-          path: "/users/:id",
+          path: "users/:id",
           element: <User />,
         },
         {
-          path: "/products/:id",
+          path: "products/:id",
           element: <Product />,
         },
       ],
     },
     {
-      path: "/login",
+      path: "login",
       element: <Login />,
     },
     {
-      path: "/signup",
+      path: "signup",
       element: <Signup />,
     },
   ]);
