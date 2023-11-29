@@ -35,12 +35,13 @@
 
 {
     "routes": [
-      { "src": "/", "dest": "/index.html" },
-      { "src": "/users", "dest": "/index.html" },
-      { "src": "/products", "dest": "/index.html" },
+      { "handle": "filesystem" },
+      { "src": "/login", "dest": "/index.html" },
+      { "src": "/signup", "dest": "/index.html" },
+      { "src": "/users*", "dest": "/index.html" },
+      { "src": "/products*", "dest": "/index.html" },
       { "src": "/users/:id", "dest": "/index.html" },
       { "src": "/products/:id", "dest": "/index.html" },
-      { "src": "/login", "dest": "/index.html" },
-      { "src": "/signup", "dest": "/index.html" }
+      { "src": "/(.*)", "dest": "/index.html" }
     ]
   }
